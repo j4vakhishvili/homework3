@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WebSite</title>
+        <link rel="icon" href="style/assets/icons/logo.png">
+        <link rel="stylesheet" href="style/default.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/footer.css">
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="index.html"><img src="style/assets/icons/logo.svg" class="logo"></a>
+                <ul>
+                    <li><a href="index.html" class="active">მთავარი</a></li>
+                    <li><a href="news.html">სიახლეები</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                </ul>
+                <img src="style/assets/icons/menuicon.svg" class="menu" onclick="openNav()">
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="style/assets/icons/cross.svg"></a>
+                <div class="overlay-content">
+                    <a href="index.html" class="active">მთავარი</a>
+                    <a href="news.html">სიახლეები</a>
+                    <a href="contact.html">კონტაქტი</a>
+                </div>
+              </div>
+        </header>
+        <div class="container">
+            <img src="style/assets/images/img.svg" class="mainpageimg">
+            <h1 class="title">FEATURED | view all features</h1>
+            <div class="box">
+                <h1>RESPONSIVE WEB DESIGN</h1>
+                <img src="style/assets/icons/responsive-web-dev.svg">
+                <h2>Approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</h2>
+            </div>
+            <div class="box r">
+                <h1>APP DEVELOPMENT</h1>
+                <img src="style/assets/icons/appdev.svg">
+                <h2 class="fix">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system</h2>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="ftcontent">
+                    <a>©2021 All rights reserved</a>
+                    <a class="r">Developed by J4VAKHISHVILI</a>
+                </div>
+                <a href="https://www.facebook.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-facebook"></ion-icon><p>Facebook</p></div></a>
+                <a href="https://www.youtube.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-youtube"></ion-icon><p>YouTube</p></div></a>
+                <a href="https://www.github.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-github"></ion-icon><p>Github</p></div></a>
+                <a href="https://dribbble.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-dribbble"></ion-icon><p>Dribbble</p></div></a>
+            </div>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script/script.js"></script>     
+</body>
+</html>

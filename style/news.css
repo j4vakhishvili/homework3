@@ -1,0 +1,145 @@
+.blank{
+    height: 200px;
+}
+
+.datebox{
+    width: 100px;
+    display: inline-block;
+}
+
+.date{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(57deg, #ED003E, #FF3C00);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'B-Bold';
+    font-size: 50px;
+    line-height: 90px;
+    display: inline-block;
+}
+
+.datetxt{
+    margin: 0;
+    display: inline-block;
+    color: white;
+    font-family: 'B-Medium';
+    font-size: 35px;
+}
+
+.title{
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    font-family: 'B-Caps';
+    width: 1550px;
+    padding-left: 30px;
+}
+
+.cover{
+    width: 470px;
+    height: 365px;
+    border-radius: 30px;
+    background: #191919;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+}
+
+.desc{
+    display: inline-block;
+    font-size: 42px;
+    color: rgba(255, 255, 255, 0.712);
+    font-family: 'B-Caps';
+    width: 1180px;
+    padding-left: 30px;
+    font-weight: 80;
+    margin: 0;
+}
+
+.post{
+    margin-bottom: 60px;
+}
+
+.c1{
+    background: url(assets/images/cover1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.c2{
+    background: url(assets/images/cover2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.c3{
+    background: url(assets/images/cover3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 1760px){
+    .title {
+        width: 1465px;
+    }
+    .desc{
+        font-size: 41px;
+        width: 1096px;
+    }
+    .r{
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 1644px){
+    .title {
+        width: 1065px;
+        font-size: 45px;
+    }
+    .desc {
+        font-size: 31.8px;
+        width: 696px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .date{
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .datebox {
+        width: 70px;
+    }
+    .datetxt{
+        font-size: 22px;
+    }
+    .title {
+        font-size: 17px;
+        width: 225px;
+        padding-left: 0px;
+    }
+    .blank {
+        height: 110px;
+    }
+    .cover{
+        width: 100%;
+        height: 230px;
+        border-radius: 20px;
+    }
+    .desc{
+        font-size: 14px;
+        width: 100%;
+        padding: 0;
+    }
+    .post{
+        margin-bottom: 20px;
+    }
+    footer {
+        margin-top: 0px;
+    }
+}

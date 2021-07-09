@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WebSite | Contact</title>
+        <link rel="icon" href="style/assets/icons/logo.png">
+        <link rel="stylesheet" href="style/default.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/footer.css">
+        <link rel="stylesheet" href="style/contact.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="index.html"><img src="style/assets/icons/logo.svg" class="logo"></a>
+                <ul>
+                    <li><a href="index.html">მთავარი</a></li>
+                    <li><a href="news.html">სიახლეები</a></li>
+                    <li><a href="contact.html" class="active">კონტაქტი</a></li>
+                </ul>
+                <img src="style/assets/icons/menuicon.svg" class="menu" onclick="openNav()">
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="style/assets/icons/cross.svg"></a>
+                <div class="overlay-content">
+                    <a href="index.html">მთავარი</a>
+                    <a href="news.html">სიახლეები</a>
+                    <a href="contact.html" class="active">კონტაქტი</a>
+                </div>
+              </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Clients</a>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+        </header>
+        <div class="container">
+            <div class="blank"></div>
+            <div class="contactinfo">
+                <h1 class="contacttitle">საკონტაქტო ინფორმაცია</h1>
+                <a><span style="color: #ED003E">მისამართი:</span> პეტრიაშვილის ქ.30</a><br>
+                <a><span style="color: #ED003E">ტელ.:</span> +995 (032) 222 222</a><br>
+                <a><span style="color: #ED003E">ელ-ფოსტა:</span> mail@gmail.com</a><br>
+            </div>
+            <div class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95278.32243036076!2d44.76881336572774!3d41.73243798466413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1625640258410!5m2!1ska!2sge" allowfullscreen="" loading="lazy" class="map"></iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="ftcontent">
+                    <a>©2021 All rights reserved</a>
+                    <br><a class="r">Developed by J4VAKHISHVILI</a>
+                </div>
+                <a href="https://www.facebook.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-facebook"></ion-icon><p>Facebook</p></div></a>
+                <a href="https://www.youtube.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-youtube"></ion-icon><p>YouTube</p></div></a>
+                <a href="https://www.github.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-github"></ion-icon><p>Github</p></div></a>
+                <a href="https://dribbble.com/" class="sociallink" target="_blank"><div class="social yt"><ion-icon name="logo-dribbble"></ion-icon><p>Dribbble</p></div></a>
+            </div>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script/script.js"></script>  
+</body>
+</html>

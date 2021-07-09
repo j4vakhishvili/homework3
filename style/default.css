@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'B-Caps';
+    src: url(fonts/BOG-Caps.ttf);
+}
+
+@font-face {
+    font-family: 'B-Bold';
+    src: url(fonts/BOG-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'B-Medium';
+    src: url(fonts/BOG-Medium.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    background: #111111;
+}
+
+.container{
+    width: 1690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::selection {
+    background: #4a1ffe;
+    color: white;
+}
+
+@media only screen and (max-width: 1760px){
+    .container{
+        width: 1600px;
+    }
+}
+
+@media only screen and (max-width: 1644px){
+    .container{
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .container{
+        width: 300px;
+    }
+}

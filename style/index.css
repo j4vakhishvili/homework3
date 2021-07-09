@@ -1,0 +1,106 @@
+.mainpageimg{
+    width: 100%;
+    padding-top: 200px;
+}
+
+.title{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'B-Bold';
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.box{
+    background: #191919;
+    padding: 20px 40px;
+    border-radius: 30px;
+    width: 750px;
+    height: 280px;
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
+}
+
+.box h1{
+    font-family: 'B-Caps';
+    color: white;
+    font-size: 36px;
+    font-weight: 50;
+}
+
+.box img{
+    height: 150px;
+    width: auto;
+    display: inline-block;
+}
+
+.box h2{
+    font-family: 'B-Caps';
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 28px;
+    font-weight: 50;
+    display: inline-block;
+    width: 560px;
+}
+
+.r{
+    float: right;
+}
+
+.fix{
+    margin-top: -25px;
+}
+
+@media only screen and (max-width: 1760px){
+    .box{
+        width: 710px;
+    }
+    .box h2{
+        width: 554px;
+    }
+}
+
+@media only screen and (max-width: 1644px){
+    .box {
+        width: 530px;
+        padding: 15px 30px;
+        
+    }
+    .box h2{
+        width: 370px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .box{
+        padding: 5px 10px;
+        border-radius: 25px;
+        width: 280px;
+        height: 155px;
+        margin-bottom: 15px;
+    }
+    .box h1{
+        font-size: 20px;
+    }
+    .box h2{
+        font-size: 12px;
+        width: 200px;
+    }
+    .box img{
+        height: 70px;
+    }
+    .mainpageimg{
+        margin-top: 120px;
+        padding: 0;
+        border-radius: 20px;
+    }
+    .title{
+        font-size: 19px;
+    }
+    .fix {
+        margin-top: 0px;
+    }
+}
